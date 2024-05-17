@@ -1,0 +1,52 @@
+<html>
+<head>
+<link rel="stylesheet" href='./style.css'/>
+</head>
+<body>
+<div class="modal">
+    <div class="modal-header">
+        <p>Select Lauch Date</p>
+        <a class="modal-close" href="javascript:void(0)">x</a>
+    </div>
+    <div class="modal-body">
+        <div class="date-select">
+            <select class="select-year" name="year">
+                <option disabled selected hidden>select year</option>
+            </select>
+            <select class="select-month" name="month">
+                <option disabled selected hidden>select month</option>
+            </select>
+            <select class="select-day" name="day">
+                <option disabled selected hidden>select day</option>
+            </select>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="submit">submit</button>
+        </div>
+        
+    </div>
+</div>
+<div class="launch modal-open">
+    <h1>we're lauching soon</h1>
+    <div class="date-display">
+        <div class="date-section">
+            <h3 class="days"></h3>
+            <p>days</p>
+        </div>
+        <div class="date-section">
+            <h3 class="hours"></h3>
+            <p>horus</p>
+        </div>
+        <div class="date-section">
+            <h3 class="minutes"></h3>
+            <p>minutes</p>
+        </div>
+        <div class="date-section">
+            <h3 class="seconds"></h3>
+            <p>seconds</p>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
